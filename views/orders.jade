@@ -1,0 +1,309 @@
+!!! 5
+//if lt IE 7
+	html.no-js.lt-ie9.lt-ie8.lt-ie7(lang='en')
+//if IE 7
+	html.no-js.lt-ie9.lt-ie8(lang='en')
+//if IE 8
+	html.no-js.lt-ie9(lang='en')
+//[if gt IE 8]><!
+html.no-js(lang='en')
+	//<![endif]
+	head
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+		title= title
+		meta(name='description', content='')
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
+		link(rel='stylesheet', href='/stylesheets/style.css')
+	body
+		.navbar.navbar-static-top
+			.navbar-inner
+				a.brand(href='') CaseMyWay
+				ul.nav
+					li: a(href='/') Dashboard
+					li.active: a(href='/orders') Orders
+					li: a(href='/shipping') Shipping
+					li: a(href='/discounts') Discounts
+					li: a(href='/customers') Customers
+					li: a(href='/products') Products
+				form.navbar-search.pull-right
+					input.search-query(type='text', placeholder='Search')
+		br
+		.container
+			.row
+				.span12
+					h3.pull-left Latest Orders
+			.row
+				.span12
+					table.table.table-condensed.table-hover
+						thead
+							td: b #
+							td: b Customer
+							td: b Order Status
+							td: b Date
+							td: b Time
+							td: b Paid
+							td: b Invoice
+							td: b Details
+							td: b Download
+						tr
+							td #942
+							td: a(href='') sudhanshu@vxtindia.com
+							td In Review
+							td Dec 28, 2012 2:01 AM
+							td 2 hrs
+							td Yes
+							td: a(href='') Invoice
+							td: a(href='/orderDetails') Details
+							td: a(href='') Download
+						tr
+							td #941
+							td: a(href='') debjeet@vxtindia.com
+							td Shipped
+							td Dec 27, 2012 11:23 PM
+							td 6 hrs
+							td Yes
+							td: a(href='') Invoice
+							td: a(href='/orderDetails') Details
+							td: a(href='') Download
+						tr
+							td #940
+							td: a(href='') sudhanshu@vxtindia.com
+							td Pending
+							td Dec 28, 2012 2:01 AM
+							td 8 hrs
+							td Yes
+							td: a(href='') Invoice
+							td: a(href='/orderDetails') Details
+							td: a(href='') Download
+						tr
+							td #939
+							td: a(href='') sudhanshu@vxtindia.com
+							td Printing
+							td Dec 28, 2012 2:01 AM
+							td 16 hrs
+							td Yes
+							td: a(href='') Invoice
+							td: a(href='/orderDetails') Details
+							td: a(href='') Download
+						tr
+							td #938
+							td: a(href='') sudhanshu@vxtindia.com
+							td In Review
+							td Dec 28, 2012 2:01 AM
+							td 26 hrs
+							td Yes
+							td: a(href='') Invoice
+							td: a(href='/orderDetails') Details
+							td: a(href='') Download
+						tr
+							td #937
+							td: a(href='') sudhanshu@vxtindia.com
+							td In Review
+							td Dec 28, 2012 2:01 AM
+							td 32 hrs
+							td Yes
+							td: a(href='') Invoice
+							td: a(href='/orderDetails') Details
+							td: a(href='') Download
+						tr
+							td #936
+							td: a(href='') sudhanshu@vxtindia.com
+							td In Review
+							td Dec 28, 2012 2:01 AM
+							td 36 hrs
+							td Yes
+							td: a(href='') Invoice
+							td: a(href='/orderDetails') Details
+							td: a(href='') Download
+						tr
+							td #935
+							td: a(href='') sudhanshu@vxtindia.com
+							td In Review
+							td Dec 28, 2012 2:01 AM
+							td 42 hrs
+							td Yes
+							td: a(href='') Invoice
+							td: a(href='/orderDetails') Details
+							td: a(href='') Download
+						tr
+							td #934
+							td: a(href='') sudhanshu@vxtindia.com
+							td In Review
+							td Dec 28, 2012 2:01 AM
+							td 48 hrs
+							td Yes
+							td: a(href='') Invoice
+							td: a(href='/orderDetails') Details
+							td: a(href='') Download
+						tr
+							td #933
+							td: a(href='') sudhanshu@vxtindia.com
+							td Printing
+							td Dec 28, 2012 2:01 AM
+							td 58 hrs
+							td Yes
+							td: a(href='') Invoice
+							td: a(href='/orderDetails') Details
+							td: a(href='') Download
+						tr
+							td #932
+							td: a(href='') sudhanshu@vxtindia.com
+							td Shipped
+							td Dec 28, 2012 2:01 AM
+							td: small 62 hrs
+							td Yes
+							td: a(href='') Invoice
+							td: a(href='/orderDetails') Details
+							td: a(href='') Download
+						tr
+							td #931
+							td: a(href='') sudhanshu@vxtindia.com
+							td Delivered
+							td Dec 28, 2012 2:01 AM
+							td: small 61 hrs
+							td Yes
+							td: a(href='') Invoice
+							td: a(href='/orderDetails') Details
+							td: a(href='') Download
+						tr
+							td #930
+							td: a(href='') sudhanshu@vxtindia.com
+							td Delivered
+							td Dec 28, 2012 2:01 AM
+							td: small 57 hrs
+							td Yes
+							td: a(href='') Invoice
+							td: a(href='/orderDetails') Details
+							td: a(href='') Download
+						tr
+							td #929
+							td: a(href='') sudhanshu@vxtindia.com
+							td Delivered
+							td Dec 28, 2012 2:01 AM
+							td: small 44 hrs
+							td Yes
+							td: a(href='') Invoice
+							td: a(href='/orderDetails') Details
+							td: a(href='') Download
+						tr
+							td #928
+							td: a(href='') sudhanshu@vxtindia.com
+							td In Review
+							td Dec 28, 2012 2:01 AM
+							td 78 hrs
+							td Yes
+							td: a(href='') Invoice
+							td: a(href='/orderDetails') Details
+							td: a(href='') Download
+						tr
+							td #927
+							td: a(href='') sudhanshu@vxtindia.com
+							td In Review
+							td Dec 28, 2012 2:01 AM
+							td 88 hrs
+							td Yes
+							td: a(href='') Invoice
+							td: a(href='/orderDetails') Details
+							td: a(href='') Download
+						tr
+							td #926
+							td: a(href='') sudhanshu@vxtindia.com
+							td In Review
+							td Dec 28, 2012 2:01 AM
+							td 98 hrs
+							td Yes
+							td: a(href='') Invoice
+							td: a(href='/orderDetails') Details
+							td: a(href='') Download
+						tr
+							td #925
+							td: a(href='') sudhanshu@vxtindia.com
+							td In Review
+							td Dec 28, 2012 2:01 AM
+							td 2 hrs
+							td Yes
+							td: a(href='') Invoice
+							td: a(href='/orderDetails') Details
+							td: a(href='') Download
+						tr
+							td #924
+							td: a(href='') sudhanshu@vxtindia.com
+							td In Review
+							td Dec 28, 2012 2:01 AM
+							td 2 hrs
+							td Yes
+							td: a(href='') Invoice
+							td: a(href='/orderDetails') Details
+							td: a(href='') Download
+						tr
+							td #923
+							td: a(href='') sudhanshu@vxtindia.com
+							td Printing
+							td Dec 28, 2012 2:01 AM
+							td 2 hrs
+							td Yes
+							td: a(href='') Invoice
+							td: a(href='/orderDetails') Details
+							td: a(href='') Download
+						tr
+							td #922
+							td: a(href='') sudhanshu@vxtindia.com
+							td In Review
+							td Dec 28, 2012 2:01 AM
+							td 2 hrs
+							td Yes
+							td: a(href='') Invoice
+							td: a(href='/orderDetails') Details
+							td: a(href='') Download
+						tr
+							td #921
+							td: a(href='') sudhanshu@vxtindia.com
+							td Pending
+							td Dec 28, 2012 2:01 AM
+							td 2 hrs
+							td No
+							td: a(href='') Invoice
+							td: a(href='/orderDetails') Details
+							td: a(href='') Download
+						tr
+							td #920
+							td: a(href='') sudhanshu@vxtindia.com
+							td Printing
+							td Dec 28, 2012 2:01 AM
+							td 2 hrs
+							td Yes
+							td: a(href='') Invoice
+							td: a(href='/orderDetails') Details
+							td: a(href='') Download
+						tr
+							td #919
+							td: a(href='') sudhanshu@vxtindia.com
+							td In Review
+							td Dec 28, 2012 2:01 AM
+							td 2 hrs
+							td Yes
+							td: a(href='') Invoice
+							td: a(href='/orderDetails') Details
+							td: a(href='') Download
+						tr
+							td #918
+							td: a(href='') sudhanshu@vxtindia.com
+							td In Review
+							td Dec 28, 2012 2:01 AM
+							td 2 hrs
+							td Yes
+							td: a(href='') Invoice
+							td: a(href='/orderDetails') Details
+							td: a(href='') Download
+						tr
+							td #917
+							td: a(href='') sudhanshu@vxtindia.com
+							td In Review
+							td Dec 28, 2012 2:01 AM
+							td 2 hrs
+							td Yes
+							td: a(href='') Invoice
+							td: a(href='/orderDetails') Details
+							td: a(href='') Download

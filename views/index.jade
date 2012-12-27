@@ -1,0 +1,154 @@
+!!! 5
+//if lt IE 7
+	html.no-js.lt-ie9.lt-ie8.lt-ie7(lang='en')
+//if IE 7
+	html.no-js.lt-ie9.lt-ie8(lang='en')
+//if IE 8
+	html.no-js.lt-ie9(lang='en')
+//[if gt IE 8]><!
+html.no-js(lang='en')
+	//<![endif]
+	head
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+		title= title
+		meta(name='description', content='')
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
+		link(rel='stylesheet', href='/stylesheets/style.css')
+	body
+		.navbar.navbar-static-top
+			.navbar-inner
+				a.brand(href='') CaseMyWay
+				ul.nav
+					li.active: a(href='/') Dashboard
+					li: a(href='/orders') Orders
+					li: a(href='/shipping') Shipping
+					li: a(href='/discounts') Discounts
+					li: a(href='/customers') Customers
+					li: a(href='/products') Products
+				form.navbar-search.pull-right
+					input.search-query(type='text', placeholder='Search')
+		br
+		.container
+			.row
+				.span12
+					//
+						ul.breadcrumb
+							li: a(href='') Dashboard
+							&nbsp;
+							span.divider /
+			.row
+				.span12
+					.well &nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;
+			.row
+				.span12
+					h3.pull-left Sales report
+			.row
+				.span12
+					table.table.table-condensed.table-hover
+						thead
+							td: b Date
+							td: b New Orders
+							td: b Shipped
+							td: b Delivered
+							td: b Sales
+							td: b Change
+						tr
+							td Dec 28, 2012
+							td 16
+							td 12
+							td 2
+							td $632.23
+							td.text-success +25%
+						tr
+							td Dec 27, 2012
+							td 15
+							td 12
+							td 1
+							td $602.11
+							td.text-error -12%
+						tr
+							td Dec 26, 2012
+							td 16
+							td 12
+							td 2
+							td $632.23
+							td.text-success +25%
+						tr
+							td Dec 25, 2012
+							td 15
+							td 12
+							td 1
+							td $602.11
+							td.text-error -12%
+						tr
+							td Dec 24, 2012
+							td 16
+							td 12
+							td 2
+							td $632.23
+							td.text-success +25%
+						tr
+							td Dec 23, 2012
+							td 15
+							td 12
+							td 1
+							td $602.11
+							td.text-error -12%
+						tr
+							td Dec 22, 2012
+							td 16
+							td 12
+							td 2
+							td $632.23
+							td.text-success +25%
+						tr
+							td Dec 21, 2012
+							td 15
+							td 12
+							td 1
+							td $602.11
+							td.text-error -12%
+						tr
+							td Dec 20, 2012
+							td 16
+							td 12
+							td 2
+							td $632.23
+							td.text-success +25%
+						tr
+							td Dec 19, 2012
+							td 15
+							td 12
+							td 1
+							td $602.11
+							td.text-error -12%
+						tr
+							td Dec 18, 2012
+							td 16
+							td 12
+							td 2
+							td $632.23
+							td.text-success +25%
+						tr
+							td Dec 17, 2012
+							td 15
+							td 12
+							td 1
+							td $602.11
+							td.text-error -12%
+						tr
+							td Dec 16, 2012
+							td 16
+							td 12
+							td 2
+							td $632.23
+							td.text-success +25%
+						tr
+							td Dec 15, 2012
+							td 15
+							td 12
+							td 1
+							td $602.11
+							td.text-error -12%

@@ -1,0 +1,181 @@
+!!! 5
+//if lt IE 7
+	html.no-js.lt-ie9.lt-ie8.lt-ie7(lang='en')
+//if IE 7
+	html.no-js.lt-ie9.lt-ie8(lang='en')
+//if IE 8
+	html.no-js.lt-ie9(lang='en')
+//[if gt IE 8]><!
+html.no-js(lang='en')
+	//<![endif]
+	head
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+		title= title
+		meta(name='description', content='')
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
+		link(rel='stylesheet', href='/stylesheets/style.css')
+	body
+		.navbar.navbar-static-top
+			.navbar-inner
+				a.brand(href='') CaseMyWay
+				ul.nav
+					li: a(href='/') Dashboard
+					li.active: a(href='/orders') Orders
+					li: a(href='/shipping') Shipping
+					li: a(href='/discounts') Discounts
+					li: a(href='/customers') Customers
+					li: a(href='/products') Products
+				form.navbar-search.pull-right
+					input.search-query(type='text', placeholder='Search')
+		br
+		.container
+			.row
+				.span12
+					h3 Order Details for order #933
+					hr
+			.row
+				.span6
+					form.form-horizontal
+						h4 Order Details
+						hr
+						.control-group
+							label.control-label: b Customer
+							.controls
+								input(type='text', value='sudhanshu@vxtindia.com', DISABLED) 
+						hr
+						.control-group
+							label.control-label: b Price
+							.controls
+								input(type='text', value='$10.00', DISABLED) 
+						.control-group
+							label.control-label: b Items
+							.controls
+								input(type='text', value='1', DISABLED) 
+						.control-group
+							label.control-label: b Total
+							.controls
+								input(type='text', value='$10.00', DISABLED)
+				.span6
+					form.form-horizontal
+						h4 Order Status
+						hr
+						.control-group
+							label.control-label: b Status
+							.controls
+								select
+									option Review
+									option Pending
+									option Paid
+									option Shipped
+									option Delivered
+									option Printing
+						.control-group
+							label.control-label: b Tracking Number
+							.controls
+								input(type='text') 
+						.control-group
+							label.control-label: b Tracking Info URL
+							.controls
+								input(type='text') 
+						.control-group
+							label.control-label: b Carrier
+							.controls
+								input(type='text') 
+			.row
+				.span6
+					form.form-horizontal
+						h4 Billing Address
+						hr
+						.control-group
+							label.control-label: b First Name
+							.controls
+								input(type='text', value='Sudhanshu', DISABLED)					
+						.control-group
+							label.control-label: b Last Name
+							.controls
+								input(type='text', value='Raheja', DISABLED)					
+						.control-group
+							label.control-label: b Phone Number
+							.controls
+								input(type='text', value='9960980066', DISABLED)					
+						.control-group
+							label.control-label: b Address 1
+							.controls
+								input(type='text', value='L509, Megacenter,', DISABLED)					
+						.control-group
+							label.control-label: b Address 2
+							.controls
+								input(type='text', value='Pune Solapur Highway, Hadapsar,', DISABLED)					
+						.control-group
+							label.control-label: b City
+							.controls
+								input(type='text', value='Pune', DISABLED)					
+						.control-group
+							label.control-label: b State
+							.controls
+								input(type='text', value='Maharashtra', DISABLED)					
+						.control-group
+							label.control-label: b Zip Code
+							.controls
+								input(type='text', value='411028', DISABLED)					
+						.control-group
+							label.control-label: b Country
+							.controls
+								input(type='text', value='India', DISABLED)					
+				.span6
+					form.form-horizontal
+						h4 Shipping Address
+						hr
+						.control-group
+							label.control-label: b First Name
+							.controls
+								input(type='text', value='Sudhanshu', DISABLED)					
+						.control-group
+							label.control-label: b Last Name
+							.controls
+								input(type='text', value='Raheja', DISABLED)					
+						.control-group
+							label.control-label: b Phone Number
+							.controls
+								input(type='text', value='9960980066', DISABLED)					
+						.control-group
+							label.control-label: b Address 1
+							.controls
+								input(type='text', value='L509, Megacenter,', DISABLED)					
+						.control-group
+							label.control-label: b Address 2
+							.controls
+								input(type='text', value='Pune Solapur Highway, Hadapsar,', DISABLED)					
+						.control-group
+							label.control-label: b City
+							.controls
+								input(type='text', value='Pune', DISABLED)					
+						.control-group
+							label.control-label: b State
+							.controls
+								input(type='text', value='Maharashtra', DISABLED)					
+						.control-group
+							label.control-label: b Zip Code
+							.controls
+								input(type='text', value='411028', DISABLED)					
+						.control-group
+							label.control-label: b Country
+							.controls
+								input(type='text', value='India', DISABLED)					
+			.row
+				.span6
+					hr
+					a.btn Render and download Case Designs
+					| &nbsp;
+					a.btn View Invoice
+				.span6
+					form.form-horizontal
+						hr
+						.control-group
+							.controls
+								a.btn.btn-primary.btn-large Save All Details
+						hr
+			.row
+				.span12 &nbsp;
